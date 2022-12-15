@@ -1,6 +1,6 @@
-# NCC
+# Neural Causation Coefficient
 
-PyTorch unofficial implementation of NCC (neural causation coefficient) in the paper ["Discovering Causal Signals in Images"](https://arxiv.org/abs/1605.08179).
+An unofficial PyTorch implementation of Neural Causation Coefficient (NCC) in the paper, ["Discovering Causal Signals in Images"](https://arxiv.org/abs/1605.08179).
 
 ## Requirements
 
@@ -20,5 +20,5 @@ torchvision=1.10.0
 
 3. ```NCC_Testing.ipynb```: Test NCC Classifier on MSCOCO dataset
 
-## Reference
+## References
 David Lopez-Pas et al., *Discovering Causal Signals in Images*, ICML 2017
