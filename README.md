@@ -7,6 +7,15 @@ An unofficial PyTorch implementation of Neural Causation Coefficient (NCC) in th
 ```shell
 torch=1.9.0
 torchvision=1.10.0
+scikit-learn
+scipy
+tqdm
+numpy
+pandas
+matplotlib
+seaborn
+skimage
+pycocotools
 ```
 
 ## Usage
@@ -16,7 +25,7 @@ torchvision=1.10.0
 1. ```NCC_Training.ipynb```: Train NCC Classifier on synthetic dataset and Test it on Tubingen dataset
 
 
-2. ```ObjectClassifier_Training.ipynb```: Train object classifier(detector) on PASCAL VOC2012 dataset
+2. ```ObjectClassifier_Training.ipynb```: Train object classifier on PASCAL VOC2012 dataset
 
 3. ```NCC_Testing.ipynb```: Test NCC Classifier on MSCOCO dataset
 
